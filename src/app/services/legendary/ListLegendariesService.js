@@ -1,4 +1,4 @@
-const LegendaryModel = require('../../models/legendary/LegendaryModel');
+import LegendaryModel from '../../models/legendary/LegendaryModel';
 
 const ListLegendariesService = {
   listLegendariesService: () => {

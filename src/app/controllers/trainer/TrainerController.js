@@ -1,6 +1,6 @@
-const CreateTrainerService = require("../../services/trainer/CreateTrainerService")
-const ListTrainerService = require("../../services/trainer/ListTrainerService")
-const UpdateTrainerService = require("../../services/trainer/UpdateTrainerService")
+import CreateTrainerService from "../../services/trainer/CreateTrainerService";
+import ListTrainerService from "../../services/trainer/ListTrainerService";
+import UpdateTrainerService from "../../services/trainer/UpdateTrainerService";
 
 const controller = {
   listAll: (request, response) => {

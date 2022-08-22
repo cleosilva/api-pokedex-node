@@ -1,4 +1,4 @@
-const ListLegendariesService = require("../../services/legendary/ListLegendariesService")
+import ListLegendariesService from "../../services/legendary/ListLegendariesService";
 
 const UpdateLegendaryService = {
   update: (

@@ -1,4 +1,4 @@
-const yup = require('yup');
+import yup from 'yup';
 
 async function legendaryValidator(request, response, next) {
 

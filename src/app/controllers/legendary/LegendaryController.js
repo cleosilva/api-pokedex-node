@@ -1,7 +1,7 @@
-const ListLegendariesService = require('../../services/legendary/ListLegendariesService');
-const CreateLegendaryService = require('../../services/legendary/CreateLegendaryService');
-const UpdateLegendaryService = require('../../services/legendary/UpdateLegendaryService');
-const DeleteLegendaryService = require('../../services/legendary/DeleteLegendaryService');
+import ListLegendariesService from '../../services/legendary/ListLegendariesService';
+import CreateLegendaryService from '../../services/legendary/CreateLegendaryService';
+import UpdateLegendaryService from '../../services/legendary/UpdateLegendaryService';
+import DeleteLegendaryService from '../../services/legendary/DeleteLegendaryService';
 
 const controller = {
   index: (request, response) => {

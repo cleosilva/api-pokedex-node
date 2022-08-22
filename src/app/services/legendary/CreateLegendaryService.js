@@ -1,5 +1,5 @@
-const LegendaryModel = require('../../models/legendary/LegendaryModel');
-const { v4 } = require('uuid')
+import LegendaryModel from '../../models/legendary/LegendaryModel';
+import { v4 } from 'uuid';
 
 const CreateLegendaryService = {
   createLegendary: (
